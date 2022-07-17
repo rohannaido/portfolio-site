@@ -16,6 +16,7 @@ for(let i = 0; i < projectList.length; i++){
     const siteLink = document.createElement("a");
     siteLink.setAttribute("href", item.projectLink)
     siteLink.classList.add("project-link")
+    siteLink.classList.add("site-link")
     siteLink.setAttribute("target", "_blank");
     siteLink.textContent = "Visit Site"
     

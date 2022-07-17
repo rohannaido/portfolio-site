@@ -6,6 +6,7 @@
     --dark-grey: #6b7280;
     --off-white: #f3f4f6;
     --shadow: 5px 5px 10px 0px gainsboro;
+    /* --shadow: none; */
 }
 
 *{
@@ -42,6 +43,7 @@ nav{
     background-color: var(--primary-color);
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 
 nav ul{
@@ -159,10 +161,19 @@ section.projects{
     text-decoration: none;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     display: inline-block;
     margin: 0.5rem 1rem 0.5rem 0;
     border-radius: 0.5rem;
+}
+
+.site-link{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.site-link:hover{
+    background-color: green;
 }
 
 .blog-list{
@@ -229,12 +240,24 @@ ul.media-list li a{
 }
 
 @media only screen and (max-width: 600px) {
+    :root{
+        font-size: 14px;
+    }
+
     .logo{
-        font-size: 1.5rem;
+        /* font-size: 1.5rem; */
     }
 
     nav ul li{
         margin: 0 0.5rem;
+    }
+
+    header{
+        justify-content: center;
+    }
+
+    h1.heading{
+        /* font-size: 2.5rem; */
     }
 
     .hero-img{
