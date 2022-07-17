@@ -11,7 +11,7 @@
     <body>
         <nav>
             <div class="logo">
-                &ltrn/ &gt
+                &ltrn/&gt
                 </div>
                 <ul class="nav-list">
                     <li>
@@ -139,5 +139,25 @@
                 </div>
             </footer>
         <script src="./main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+        <script>
+            VANTA.BIRDS({
+                el: "body",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                backgroundColor: 0xffffff,
+                color1: 0xff8a8a,
+                color2: 0x85e2ff,
+                birdSize: 1.10,
+                wingSpan: 17.00,
+                speedLimit: 2.00
+            })
+            </script>
     </body>
 </html>
