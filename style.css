@@ -237,6 +237,10 @@ ul.media-list li a{
         margin: 0 0.5rem;
     }
 
+    .hero-img{
+        max-width: 80%;
+    }
+
     div#content{
         margin: 2rem;
     }
