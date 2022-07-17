@@ -229,6 +229,14 @@ ul.media-list li a{
 }
 
 @media only screen and (max-width: 600px) {
+    .logo{
+        font-size: 1.5rem;
+    }
+
+    nav ul li{
+        margin: 0 0.5rem;
+    }
+
     div#content{
         margin: 2rem;
     }
