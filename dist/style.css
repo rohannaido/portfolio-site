@@ -167,13 +167,42 @@ section.projects{
     border-radius: 0.5rem;
 }
 
-.site-link{
-    background-color: var(--primary-color);
-    color: white;
+.site-link {
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    border: 3px solid var(--primary-color);
+    background-image: linear-gradient(30deg, var(--primary-color) 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    transition: background 500ms ease-in-out;
+    /* background-image: -webkit-linear-gradient(30deg, #c266d3 50%, transparent 50%); */
+    /* -webkit-transition: background 300ms ease-in-out; */
 }
 
-.site-link:hover{
-    background-color: green;
+.site-link:hover {
+    background-position: 100%;
+    color: var(--primary-color);
+}
+
+.code-link{
+    text-align: center;
+    font-weight: 600;
+    color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+    background-image: linear-gradient(30deg, transparent 50%, var(--primary-color) 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    transition: background 500ms ease-in-out;
+    /* background-image: -webkit-linear-gradient(30deg, #c266d3 50%, transparent 50%); */
+    /* -webkit-transition: background 300ms ease-in-out; */
+}
+
+.code-link:hover {
+    background-position: 100%;
+    color: white;
 }
 
 .blog-list{

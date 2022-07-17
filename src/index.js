@@ -23,6 +23,7 @@ for(let i = 0; i < projectList.length; i++){
     const codeLink = document.createElement("a");
     codeLink.setAttribute("href", item.codeLink)
     codeLink.classList.add("project-link")
+    codeLink.classList.add("code-link")
     codeLink.setAttribute("target", "_blank");
     codeLink.textContent = "View Code"
 
