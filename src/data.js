@@ -6,6 +6,12 @@ const projectList = [
         codeLink: "https://github.com/rohannaido/ecommerce-app"
     },
     {
+        title: "Booking App",
+        description: "A booking app where hotel bookings can be made. It is integrated with Firebase to fetch hotel data as per city name.",
+        projectLink: "https://rohannaido.github.io/booking-app/",
+        codeLink: "https://github.com/rohannaido/booking-app"
+    },
+    {
         title: "Wheres waldo",
         description: "A Game with ReactJS in the frontend and Firebase as backend. User has to locate characters in the search image and time will be logged in the backend.",
         projectLink: "https://rohannaido.github.io/wheres-waldo/",
