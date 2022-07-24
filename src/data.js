@@ -1,13 +1,15 @@
 const projectList = [
     {
         title: "Fullstack Ecommerce App",
-        description: "A Fullstack ecommerce app which was built using ReactJS for the frontend and ExpressJS for the its backend API which is integerated with MongoDB Database.",
+        description: "A Fullstack ecommerce app which was built using ReactJS for the frontend and ExpressJS for the its backend API which is integerated with MongoDB Database. The backend API is hosted on Heroku and consumes MongoDB's cloud database.",
+        img:"./images/ecommerce-screenshot.png" ,
         projectLink: "https://rohannaido.github.io/ecommerce-app/",
         codeLink: "https://github.com/rohannaido/ecommerce-app"
     },
     {
         title: "Booking App",
         description: "A booking app where hotel bookings can be made. It is integrated with Firebase to fetch hotel data as per city name.",
+        img:"./images/booking-app-screenshot.png",
         projectLink: "https://rohannaido.github.io/booking-app/",
         codeLink: "https://github.com/rohannaido/booking-app"
     },

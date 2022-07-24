@@ -10,6 +10,13 @@ for(let i = 0; i < projectList.length; i++){
     const projectTitle = document.createElement("h3");
     projectTitle.textContent = item.title;
     
+    const imageDiv = document.createElement("div");
+    const image = document.createElement("img");
+    imageDiv.classList.add("project-image-div");
+    image.classList.add("image");
+    image.src = item.img;
+    imageDiv.appendChild(image);
+    
     const projectDesc = document.createElement("p");
     projectDesc.textContent = item.description;
 
@@ -27,11 +34,24 @@ for(let i = 0; i < projectList.length; i++){
     codeLink.setAttribute("target", "_blank");
     codeLink.textContent = "View Code"
 
-    listItem.appendChild(projectTitle);
-    listItem.appendChild(projectDesc);
-    listItem.appendChild(siteLink);
-    listItem.appendChild(codeLink);
+    const headingImageDiv = document.createElement('div');
+    headingImageDiv.classList.add("heading-image-div")
+    const descriptionButtonsDiv = document.createElement('div');
+    descriptionButtonsDiv.classList.add("description-buttons-div")
 
+    headingImageDiv.appendChild(projectTitle);
+    if(item.img){
+        headingImageDiv.appendChild(imageDiv);
+    }
+    listItem.appendChild(headingImageDiv);
+    descriptionButtonsDiv.appendChild(projectDesc);
+
+    const buttonContainer = document.createElement('div');
+    buttonContainer.appendChild(siteLink);
+    buttonContainer.appendChild(codeLink);
+    descriptionButtonsDiv.appendChild(buttonContainer);
+    listItem.appendChild(descriptionButtonsDiv);
+    
     projectListElement.appendChild(listItem);
 }
 
