@@ -31,8 +31,8 @@ const projectList = [
         title: "Notes App",
         description: "A notes app inspired by Google Notes design. Users can create, edit and delete their notes. Every user get their own notes storage.",
         img:"./images/notes-app.png" ,
-        projectLink: "https://rohannaido.github.io/video-app/",
-        codeLink: "https://github.com/rohannaido/video-app"
+        projectLink: "https://rohannaido.github.io/notes-app/",
+        codeLink: "https://github.com/rohannaido/notes-app"
     },
     {
         title: "Wheres waldo",
