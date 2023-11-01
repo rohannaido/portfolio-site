@@ -1,5 +1,12 @@
 const projectList = [
     {
+        title: "Angular Component Library",
+        description: "This website has angular components that I felt the need build, They can be cloned and used from my gitHub.",
+        img:"./images/angular-component-library-screenshot.png",
+        projectLink: "https://rohannaido.github.io/component-library/",
+        codeLink: "https://github.com/rohannaido/component-library"
+    },
+    {
         title: "Booking App",
         description: "A booking app where users can book hotels in Indian cities. It is integrated with Firebase to fetch hotel data as per city name. Users can filter and sort hotels results by price and ratings. Hotel Images are displayed in a carousel form. All the components are built using pure CSS and in-house.",
         img:"./images/booking-app-screenshot.png",
